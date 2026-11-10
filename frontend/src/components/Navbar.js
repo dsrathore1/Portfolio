@@ -20,7 +20,7 @@ export function Navbar() {
             </Link>
           ))}
         </div>
-        <a className="nav-cta" href={`mailto:${PROFILE.email}`}>Let's talk <ArrowUpRight size={15} /></a>
+        <a className="nav-cta" href={`mailto:${PROFILE.email}`}>Let&apos;s talk <ArrowUpRight size={15} /></a>
         <button className="mobile-toggle" aria-label={open ? "Close menu" : "Open menu"} onClick={() => setOpen(!open)}>
           {open ? <X size={21} /> : <Menu size={21} />}
         </button>
